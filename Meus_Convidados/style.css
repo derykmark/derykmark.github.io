@@ -16,10 +16,14 @@ p {
 }
 
 img {
-    max-width: 700px;
-    max-height: 660px;
+    max-width: 800px;
+    max-height: 800px;
     width: auto;
     height: auto;
+}
+
+.imagem_1 {
+    padding-right: 10px;
 }
 
 .imagem_2 {
@@ -74,6 +78,7 @@ p {
 
 .tela_inicial {
     padding: 10px;
+    text-align: center;
 }
 
 .a_convidados {
