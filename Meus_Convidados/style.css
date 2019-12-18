@@ -1,23 +1,37 @@
-h1 {
-    background-color: purple;
-    font-size: 40px;
-    color: white;
+.titulo_principal {
     text-align: center;
+    background-color: #851944;
+    color: #F2FFFC;
+    padding: 25px;
+    border-bottom: 10px solid black;
+    font-size: 60px;
+}
+
+body {
+    background-color: #F2FFFC;
 }
 
 p {
-    font-family: "Open Sans Condensed", "Times New Roman", serif;
+    font-family: "Times New Roman", serif;
 }
 
 img {
     max-width: 700px;
-    max-height: 550px;
+    max-height: 660px;
     width: auto;
     height: auto;
 }
 
 .imagem_2 {
     transform: rotate(270deg);
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.h2_titulo {
+    text-transform: uppercase;
 }
 
 h3 {
@@ -28,4 +42,50 @@ h3 {
 h4 {
     font-size: 20px;
     color: rgb(221, 76, 235);
+}
+
+p {
+    font-size: 20px;
+}
+
+.lista_noivo {
+    background-color: rgba(160, 160, 160, 0.63);
+    width: 550px;
+    height: 600px;
+    box-sizing: border-box;
+    border: 10px solid rgba(0, 0, 0, 0.267);
+    margin: 20px 50px;
+    overflow: scroll;
+    float: left;
+    padding: 20px;
+}
+
+.lista_noiva {
+    background-color: rgba(160, 160, 160, 0.63);
+    width: 450px;
+    height: 600px;
+    box-sizing: border-box;
+    border: 10px solid rgba(0, 0, 0, 0.267);
+    margin: 20px 100px;
+    overflow: scroll;
+    float: right;
+    padding: 20px;
+}
+
+.tela_inicial {
+    padding: 10px;
+}
+
+.a_convidados {
+    text-decoration: none;
+}
+
+.buttom_convidados {
+    background-position: center;
+    padding: 10px;
+}
+
+.li_convidados {
+    text-align: center;
+    padding-top: 10px;
 }
