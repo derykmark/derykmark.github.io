@@ -2,8 +2,9 @@
 <html>
 
 <head>
-    <title>Convidados</title>
+    <title>Lista Convidados</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="Casamento.jpg">
     <!-- carrega a fonte Crimson Text nas versões normal, itálico e negrito -->
@@ -15,203 +16,201 @@
 </head>
 
 <body>
-    <h1>Lista de Convidados</h1>
-    <aside>
-        <h2>Avós Noivo</h2>
-        <ul>
-            <li>
-                <p>Ikuo Kadiama e Nice.</p>
-                <p>Mario da Neves e Francisca.</p>
-            </li>
-        </ul>
-    </aside>
-    <aside>
-        <h2>Tios por Parte de Mãe (Noivo).</h2>
-        <ul>
-            <li>
-                <p>Eneas e Margvane.</p>
-            </li>
-            <li>
-                <p>Mario e Esposa.</p>
-                <p> e 3 filhos</p>
-            </li>
-            <li>
-                <p>Osmar e Viviane.</p>
-                <p>Filhos: João e Maria.</p>
-            </li>
-            <li>
-                <p>Nilton e Elienai.</p>
-                <p>Filhos: Patrick, Luiz Henrique, Julia, Adrieli</p>
-            </li>
-            <li>
-                <p>Noemi.</p>
-                <p>Filhos: Daniel, Rebeca.</p>
-            </li>
-            <li>
-                <p>Izaias e Elilde.</p>
-                <p>Filhos: Franciele, Paula, Eloa, Eloisi, Sophia.</p>
-            </li>
-            <li>
-                <p>Marli.</p>
-                <p>Filhos: Natanael, Vanderson, Davi, Jonatan.</p>
-            </li>
-            <li>
-                <p>Emerson e Edilaine.</p>
-                <p>Filhos: Luana, Sara, Sheron, Miguel, Gabriel.</p>
-            </li>
-            <h3>Total: 39</h3>
-        </ul>
-    </aside>
-    <h2>Tios por Parte De Pai (Noivo).</h2>
-    <aside>
-        <ul>
-            <li>
-                <p>Jack e Cristina</p>
-            </li>
-            <li>
-                <p>Frank e Cassia</p>
-            </li>
-            <li>
-                <p>Roberto e Elizabeth</p>
-            </li>
-            <li>
-                <p>Henry e Flavia.</p>
-                <p>Filho: Ian.</p>
-            </li>
-            <h3>Total: 9</h3>
-        </ul>
-    </aside>
-    <h2>Primos por Parte de Mãe (Casados).</h2>
-    <aside>
-        <ul>
-            <li>
-                <h4>Filhos Tia Marli </h4>
-                <p>Josias e Esposa.</p>
-                <p>Filhos: 2 meninas.</p>
-                <p>Ezequias e Valeria.</p>
-                <p>Filhos: 2 meninas </p>
-                <p>Flavio e Aline.</p>
-                <p>Filhos: 3.</p>
-            </li>
-            <li>
-                <h4>Filhos Tia Elilde</h4>
-                <p>Julio e Brenda.</p>
-                <p>Filhos: Cristofer, Talia.</p>
-            </li>
-            <li>
-                <h4>Filhos Tia Edilaine</h4>
-                <p>David e Esposa</p>
-                <p>Filha: Esther.</p>
-            </li>
-            <li>
-                <h4>Filhos Tia Noemi</h4>
-                <p>Jeniffer e Marido</p>
-                <P>Filha:1</P>
-                <p>Miria e Alexandre.</p>
-                <p>Filha: 1</p>
-            </li>
-            <li>
-                <h4>Filhos da Tia Nai</h4>
-                <p>Denise e Elenilson</p>
-            </li>
-            <h3>Total: 28</h3>
-        </ul>
-    </aside>
-    <aside>
-        <h2>Primos Por Parte de Pai (Casados).</h2>
-        <ul>
-            <li>
-                <h4>Filhos Do Tio Frank</h4>
-                <p>Renam e Esposa</p>
-                <p>Matheus e Esposa</p>
-                <p>Filhos: 2 meninos</p>
-            </li>
-            <li>
-                <h4>Filhos da Tia Beth</h4>
-                <p>Hudson e Esposa.</p>
-                <p>Filho: 1</p>
-                <p>Rodrigo e Esposa</p>
-            </li>
-            <li>
-                <h4>Filha do Tio Jack</h4>
-                <p>Claudio e Isabela</p>
-            </li>
-            <li>
-                <p>
-                    <h4>Filha Tio Henry</h4>
-                    <p>Marido e Bruna</p>
+    <main>
+        <h1 class="titulo_principal">Lista de Convidados</h1>
+        <aside class="lista_noivo">
+            <h2 class="h2_titulo">Lista de Convidados do Noivo</h2>
+            <h2>Avós Noivo</h2>
+            <ul>
+                <li>
+                    <p>Ikuo Kadiama e Nice</p>
+                </li>
+                <li>
+                    <p>Mario da Neves e Francisca</p>
+                </li>
+            </ul>
+            <h2>Tios por Parte de Mãe</h2>
+            <ul>
+                <li>
+                    <p>Eneas e Margvane</p>
+                </li>
+                <li>
+                    <p>Mario e Esposa</p>
+                    <p> Filhos: 3</p>
+                </li>
+                <li>
+                    <p>Osmar e Viviane</p>
+                    <p>Filhos: João e Maria</p>
+                </li>
+                <li>
+                    <p>Nilton e Elienai</p>
+                    <p>Filhos: Patrick, Luiz Henrique, Julia, Adrieli</p>
+                </li>
+                <li>
+                    <p>Noemi</p>
+                    <p>Filhos: Daniel, Rebeca</p>
+                </li>
+                <li>
+                    <p>Izaias e Elilde</p>
+                    <p>Filhos: Franciele, Paula, Eloa, Eloisi, Sophia</p>
+                </li>
+                <li>
+                    <p>Marli</p>
+                    <p>Filhos: Natanael, Vanderson, Davi, Jonatan</p>
+                </li>
+                <li>
+                    <p>Emerson e Edilaine</p>
+                    <p>Filhos: Luana, Sara, Sheron, Miguel, Gabriel</p>
+                </li>
+                <!-- <h3>Total: 39</h3> -->
+            </ul>
+            <h2>Tios por Parte De Pai </h2>
+            <ul>
+                <li>
+                    <p>Jack e Cristina</p>
+                </li>
+                <li>
+                    <p>Frank e Cassia</p>
+                </li>
+                <li>
+                    <p>Roberto e Elizabeth</p>
+                </li>
+                <li>
+                    <p>Henry e Flavia</p>
+                    <p>Filho: Ian</p>
+                </li>
+                <!-- <h3>Total: 9</h3>-->
+            </ul>
+            <h2>Primos por Parte de Mãe (Casados)</h2>
+            <ul>
+                <li>
+                    <h4>Filhos Tia Marli </h4>
+                    <p>Josias e Esposa</p>
+                    <p>Filhos: 2 meninas</p>
+                    <p>Ezequias e Valeria</p>
+                    <p>Filhos: 2 meninas </p>
+                    <p>Flavio e Aline</p>
+                    <p>Filhos: 3</p>
+                </li>
+                <li>
+                    <h4>Filhos Tia Elilde</h4>
+                    <p>Julio e Brenda</p>
+                    <p>Filhos: Cristofer, Talia</p>
+                </li>
+                <li>
+                    <h4>Filhos Tia Edilaine</h4>
+                    <p>David e Esposa</p>
+                    <p>Filha: Esther</p>
+                </li>
+                <li>
+                    <h4>Filhos Tia Noemi</h4>
+                    <p>Jeniffer e Marido</p>
+                    <P>Filha:1</P>
+                    <p>Miria e Alexandre</p>
                     <p>Filha: 1</p>
-                </p>
-            </li>
-            <h3>Total: 16</h3>
-        </ul>
-    </aside>
-    <aside>
-        <h2>Convidados em Especial (Noivo)</h2>
-        <ul>
-            <li>
-                <p>Ronaldo e Marcia</p>
-                <p>Filhos: Guilherme e Carol.</p>
-                <p>Donizete e Esposa</p>
-                <p>Nei e Renata</p>
-                <p>Filhos: Guilherme e mocinha</p>
-                <p>Rodrigo e Esposa</p>
-                <p>Filho: 1</p>
-                <p>PrºCleumar Borges e IrªZilmar</p>
-                <p>Filha: Sara</p>
-                <p>Sadraque e Noiva</p>
-                <p>Isac e Esposa</p>
-                <p>Filho: Lincon</p>
-            </li>
-            <h3>Total: 21</h3>
-        </ul>
-    </aside>
-    <aside>
-        <h2>Avós da Noiva</h2>
-        <ul>
-            <li></li>
-        </ul>
-    </aside>
-    <aside>
-        <h2>Tios por Parte de Mãe(Noiva)</h2>
-        <ul>
-            <li>
-                <p></p>
-            </li>
-        </ul>
-    </aside>
-    <aside>
-        <h2>Tios por Parte de Pai(Noiva)</h2>
-        <ul>
-            <li>
-                <p></p>
-            </li>
-        </ul>
-    </aside>
-    <aside>
-        <h2>Primos por parte de mãe(casados)</h2>
-        <ul>
-            <li>
-                <p></p>
-            </li>
-        </ul>
-    </aside>
-    <aside>
-        <h2>Primos por parte de pai(casados)</h2>
-        <ul>
-            <li>
-                <p></p>
-            </li>
-        </ul>
-    </aside>
-    <aside>
-        <h2>Convidados em Especial (Noiva).</h2>
-        <ul>
-            <li>
-                <p></p>
-            </li>
-        </ul>
-    </aside>
+                </li>
+                <li>
+                    <h4>Filhos da Tia Nai</h4>
+                    <p>Denise e Elenilson</p>
+                </li>
+                <!-- <h3>Total: 28</h3>-->
+            </ul>
+            <h2>Primos Por Parte de Pai (Casados)</h2>
+            <ul>
+                <li>
+                    <h4>Filhos Do Tio Frank</h4>
+                    <p>Renam e Esposa</p>
+                    <p>Matheus e Esposa</p>
+                    <p>Filhos: 2 meninos</p>
+                </li>
+                <li>
+                    <h4>Filhos da Tia Beth</h4>
+                    <p>Hudson e Esposa</p>
+                    <p>Filho: 1</p>
+                    <p>Rodrigo e Esposa</p>
+                </li>
+                <li>
+                    <h4>Filha do Tio Jack</h4>
+                    <p>Claudio e Isabela</p>
+                </li>
+                <li>
+                    <p>
+                        <h4>Filha Tio Henry</h4>
+                        <p>Marido e Bruna</p>
+                        <p>Filha: 1</p>
+                    </p>
+                </li>
+                <!-- <h3>Total: 16</h3> -->
+            </ul>
+            <h2>Convidados em Especial </h2>
+            <ul>
+                <li>
+                    <p>Ronaldo e Marcia</p>
+                    <p>Filhos: Guilherme e Carol</p>
+                </li>
+                <li>
+                    <p>Donizete e Esposa</p>
+                </li>
+                <li>
+                    <p>Nei e Renata</p>
+                    <p>Filhos: Guilherme e mocinha</p>
+                </li>
+                <li>
+                    <p>Rodrigo e Esposa</p>
+                    <p>Filho: 1</p>
+                </li>
+                <li>
+                    <p>PrºCleumar Borges e IrªZilmar</p>
+                    <p>Filha: Sara</p>
+                </li>
+                <li>
+                    <p>Sadraque e Noiva</p>
+                </li>
+                <li>
+                    <p>Isac e Esposa</p>
+                    <p>Filho: Lincon</p>
+                </li>
+                <!-- <h3>Total: 21</h3> -->
+            </ul>
+        </aside>
+        <aside class="lista_noiva">
+            <h2 class="h2_titulo">Lista de Convidados da Noiva</h2>
+            <h2>Avós da Noiva</h2>
+            <ul>
+                <li></li>
+            </ul>
+            <h2>Tios por Parte de Mãe(Noiva)</h2>
+            <ul>
+                <li>
+                    <p></p>
+                </li>
+            </ul>
+            <h2>Tios por Parte de Pai(Noiva)</h2>
+            <ul>
+                <li>
+                    <p></p>
+                </li>
+            </ul>
+            <h2>Primos por parte de mãe(casados)</h2>
+            <ul>
+                <li>
+                    <p></p>
+                </li>
+            </ul>
+            <h2>Primos por parte de pai(casados)</h2>
+            <ul>
+                <li>
+                    <p></p>
+                </li>
+            </ul>
+            <h2>Convidados em Especial (Noiva)</h2>
+            <ul>
+                <li>
+                    <p></p>
+                </li>
+            </ul>
+        </aside>
+    </main>
 </body>
 
 </html>
