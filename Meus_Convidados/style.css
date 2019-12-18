@@ -44,8 +44,9 @@ h3 {
 }
 
 h4 {
-    font-size: 20px;
-    color: rgb(221, 76, 235);
+    font-size: 25px;
+    color: rgb(133, 25, 68);
+    font-variant: all-petite-caps;
 }
 
 p {
@@ -89,9 +90,25 @@ p {
     padding: 10px;
 }
 
+.buttom_index {
+    height: 70px;
+    background-position: center;
+    padding: 10px;
+}
+
 .li_convidados {
     text-align: center;
     padding-top: 10px;
+}
+
+#footer_roda_pe {
+    background-color: #000;
+    color: #F2FFFC;
+    padding: 20px;
+}
+
+.seta_voltar {
+    width: 50px;
 }
 
 @media screen and (max-device-width: 900px) {
@@ -120,5 +137,18 @@ p {
     .imagem_2 {
         max-height: max-content;
         max-width: -webkit-fill-available;
+    }
+    .h2_titulo {
+        text-decoration: underline;
+        -webkit-text-stroke: medium;
+        font-size: 30px;
+    }
+    h2 {
+        -webkit-text-stroke: medium;
+        text-transform: uppercase;
+        font-size: 25px;
+    }
+    p {
+        font-size: 25px;
     }
 }
