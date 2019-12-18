@@ -50,11 +50,11 @@ p {
 
 .lista_noivo {
     background-color: rgba(160, 160, 160, 0.63);
-    width: 550px;
+    width: 600px;
     height: 600px;
     box-sizing: border-box;
     border: 10px solid rgba(0, 0, 0, 0.267);
-    margin: 20px 50px;
+    margin: 20px 30px;
     overflow: scroll;
     float: left;
     padding: 20px;
@@ -62,11 +62,11 @@ p {
 
 .lista_noiva {
     background-color: rgba(160, 160, 160, 0.63);
-    width: 450px;
+    width: 600px;
     height: 600px;
     box-sizing: border-box;
     border: 10px solid rgba(0, 0, 0, 0.267);
-    margin: 20px 100px;
+    margin: 20px 30px;
     overflow: scroll;
     float: right;
     padding: 20px;
@@ -88,4 +88,20 @@ p {
 .li_convidados {
     text-align: center;
     padding-top: 10px;
+}
+
+@media screen and (max-device-width: 900px) {
+    .tela_inicial {
+        text-align: -webkit-center;
+    }
+    .lista_noivo {
+        float: none;
+    }
+    .lista_noiva {
+        float: none;
+    }
+    main {
+        text-align: center;
+        text-align: -webkit-center;
+    }
 }
