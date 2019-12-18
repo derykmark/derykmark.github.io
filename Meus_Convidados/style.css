@@ -96,12 +96,24 @@ p {
     }
     .lista_noivo {
         float: none;
+        width: auto;
+        height: 100vh;
     }
     .lista_noiva {
         float: none;
+        width: auto;
+        height: 100vh;
     }
     main {
         text-align: center;
         text-align: -webkit-center;
+    }
+    .imagem_1 {
+        max-height: max-content;
+        max-width: -webkit-fill-available;
+    }
+    .imagem_2 {
+        max-height: max-content;
+        max-width: -webkit-fill-available;
     }
 }
