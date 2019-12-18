@@ -16,8 +16,8 @@ p {
 }
 
 img {
-    max-width: 800px;
-    max-height: 800px;
+    max-width: 700px;
+    max-height: 655px;
     width: auto;
     height: auto;
 }
@@ -78,7 +78,6 @@ p {
 
 .tela_inicial {
     padding: 10px;
-    text-align: center;
 }
 
 .a_convidados {
@@ -98,6 +97,7 @@ p {
 @media screen and (max-device-width: 900px) {
     .tela_inicial {
         text-align: -webkit-center;
+        text-align: center;
     }
     .lista_noivo {
         float: none;
