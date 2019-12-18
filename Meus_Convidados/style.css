@@ -13,6 +13,7 @@ body {
 
 p {
     font-family: "Times New Roman", serif;
+    font-size: 23px;
 }
 
 img {
@@ -39,18 +40,17 @@ h2 {
 }
 
 h3 {
-    color: red;
-    font-size: 15px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-variant: all-petite-caps;
+    font-weight: bold;
+    font-style: italic;
 }
 
 h4 {
-    font-size: 25px;
+    font-size: 28px;
     color: rgb(133, 25, 68);
     font-variant: all-petite-caps;
-}
-
-p {
-    font-size: 20px;
 }
 
 .lista_noivo {
