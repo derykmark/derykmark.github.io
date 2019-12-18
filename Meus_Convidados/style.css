@@ -148,6 +148,9 @@ h4 {
         text-transform: uppercase;
         font-size: 25px;
     }
+    h3 {
+        font-size: 60px;
+    }
     p {
         font-size: 25px;
     }
